@@ -1,6 +1,6 @@
 form machine import Pin
 import time
-led=(15,Pin.OUT)
+led=Pin(15,Pin.OUT)
 
 while True:
     led.on()
